@@ -2,12 +2,12 @@ var censoredWords = ['sad','bad','mad'];
 var customCensoredWords = [];
 
 function censor(inStr){
-	for(idx in censoredWords){
-		inStr = inStr.replace(censoredWords[idx],"*******");
+	for(id in censoredWords){
+		inStr = inStr.replace(censoredWords[id],"*******");
 	}
 
 	for(idx in customCensoredWords){
-		inStr = inStr.replace(customCensoredWords[idx]."*******");
+		inStr = inStr.replace(customCensoredWords[id]."*******");
 	}
 	return inStr;
 }
