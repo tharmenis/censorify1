@@ -1,0 +1,17 @@
+{
+	"author":"Thodoris Armenis",
+	"name": "censorify",
+	"description": "Censors words of text",
+	"version":"0.0.1",
+	"main": "censortext",
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/tharmenis/censorify1"
+	},
+	"keywords":["censor","words"],
+	
+	"dependencies": "{}",
+	"engines": {
+		"node": "*"
+	}
+}
